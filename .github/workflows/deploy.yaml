@@ -16,7 +16,7 @@ jobs:
           npm install
           npm run build
           
-          NODE_DEBUG=gh-pages npm run deploy
+          GITHUB_ACTOR=maricaffarel GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} INPUT_REPO=butts NODE_DEBUG=gh-pages npm run deploy
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
