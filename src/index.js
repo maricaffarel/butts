@@ -3,21 +3,6 @@ import ReactDOM from 'react-dom';
 import './app.css';
 import MenuBar from "./components/menuBar.jsx"
 import ContentContainer from "./components/contentContainer.jsx"
-
-class App extends React.Component {	
-  render() {
-    return (
-      <>
-      <MenuBar/> hello
-      
-      <ContentContainer/> FUCK
-     
-    
-      </>
-    )
-  }
-}
+import App from "./app.jsx"
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-export default App
