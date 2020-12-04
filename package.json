@@ -14,7 +14,7 @@
     "webpack": "4.x.x",
     "webpack-dev-middleware": "3.7.x"
   },
-  "homepage": "http://maricaffarel.github.io/butts",
+  "homepage": "https://maricaffarel.github.io/butts/",
   "scripts": {
     "build": "./node_modules/.bin/react-scripts build",
     "deploy": "./node_modules/.bin/gh-pages -d build"
