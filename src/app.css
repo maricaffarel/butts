@@ -1,0 +1,13 @@
+.menu-bar{
+  background-color: red; 
+  height: 20px;
+  width: 100%;
+  
+  padding: 0px;
+  left: 0px;
+  
+  
+  position: fixed; 
+  top: 0;
+  
+}
