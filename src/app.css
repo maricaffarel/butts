@@ -3,11 +3,30 @@
   height: 20px;
   width: 100%;
   
+  z-index:1;
+  
   padding: 0px;
   left: 0px;
   
   
   position: fixed; 
   top: 0;
+  
+}
+
+.content-container{
+  display: flex;
+  background: url(http://i.imgur.com/6Obm0Ek.png) repeat center center fixed;
+  
+  
+  position: fixed;
+  
+  
+  
+  top: 0;
+  left: 0;
+  
+  height: 100%;
+  width: 100%;
   
 }
